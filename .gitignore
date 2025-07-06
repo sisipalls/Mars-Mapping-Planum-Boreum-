@@ -1,0 +1,23 @@
+# Python build & cache files 
+__pycache__/
+*.py[cod]
+*.egg-info/
+ 
+ # Jupyter notebook artifacts 
+ .ipynb_checkpoints/
+
+ # Environments 
+ .env 
+ .venv/
+
+ # Data & outputs 
+ *.tif 
+ *.csv 
+ *.grd
+ *.nc
+ data/
+ results/
+ outputs/
+
+# macOS system files 
+.DS_Store
